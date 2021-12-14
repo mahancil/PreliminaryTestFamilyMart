@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "TestFamilyMart",
+    "host": "localhost",
+    "port":"5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+  }
+  },
+  "test": {
+    "username": "wutfotafpwwrbt",
+    "password": "6d006d27f9f6079b69d6157460c0243635af2b0e1521ba8d31855ec61290cb5e",
+    "database": "dd3imfkcqk6v1m",
+    "host": "ec2-3-233-100-43.compute-1.amazonaws.com",
+    "port":"5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "rejectUnauthorized": false
+      }
+  }
+  },
+  "production": {
+    "username": "wutfotafpwwrbt",
+    "password": "6d006d27f9f6079b69d6157460c0243635af2b0e1521ba8d31855ec61290cb5e",
+    "database": "dd3imfkcqk6v1m",
+    "host": "ec2-3-233-100-43.compute-1.amazonaws.com",
+    "port":"5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "rejectUnauthorized": false
+      }
+  }
+  }
+}
